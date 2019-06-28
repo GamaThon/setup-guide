@@ -43,3 +43,9 @@ INFO[0000] Mapping /websocket to http://localhost:8001
 INFO[0000] Mapping / to http://localhost:8002
 INFO[0000] Mapping /td to http://localhost:8002
 ```
+
+## Open the app
+- Open your browser
+- Go to http://localhost:8000/
+
+
