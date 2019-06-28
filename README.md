@@ -1,4 +1,4 @@
-# setup-guide
+# Setup Code
 
 ## Pre-setup
 - Create a directory on your computer somewhere to keep everything related to GamaThon.
