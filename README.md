@@ -6,7 +6,7 @@
 - Install Intelli-J Community.
 - Install Gradle (Easy to do with Chocolatey).
 - Install NodeJS.
-- Run `npm install http-server` in CMD.
+- Run `npm install -g http-server` in CMD.
 
 
 ## Setup client
