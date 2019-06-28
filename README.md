@@ -11,7 +11,7 @@
 
 ## Setup client
 This will run the client side on your computer. You will not need to connect to it directly. You will use the proxy for that.
-- Open the GamaThon directory on your computer in CMD.
+- Open the `GamaThon` directory on your computer in CMD.
 - Run `git clone https://github.com/GamaThon/tode-client.git` This will clone the client to your directory.
 - Run `cd tode-client`
 - Run `http-server -p 8002`
@@ -19,7 +19,7 @@ This will run the client side on your computer. You will not need to connect to 
 
 ## Setup server
 This will run the server. You need to run both at the same time.
-- Open the GamaThon directory on your computer in CMD.
+- Open the `GamaThon` directory on your computer in CMD.
 - Run `git clone https://github.com/GamaThon/tode-server.git`
 - Open the folder in Intelli-J Community.
 - In Intelli-J terminal run `gradle bootRun`
@@ -31,7 +31,7 @@ This will run the server. You need to run both at the same time.
 - In CMD run `pproxy`
 
 ## Setup proxy (*nix)
-- `cd` to Gamathon folder
+- `cd` to `Gamathon` folder.
 - `go get github.com/GamaThon/path-proxy`
 - Download https://github.com/GamaThon/path-proxy/releases/download/v1.0/config.json to GamaThon folder.
 - `pproxy`
