@@ -29,11 +29,17 @@ This will run the server. You need to run both at the same time.
 - Download https://github.com/GamaThon/path-proxy/releases/download/v1.0/pproxy.exe to your `Gamathon` folder.
 - Download the https://github.com/GamaThon/path-proxy/releases/download/v1.0/config.json to your `Gamathon` folder.
 - In CMD run `pproxy`
-- Check the terminal output mentions 8001 and 8002.
 
 ## Setup proxy (*nix)
 - `cd` to Gamathon folder
 - `go get github.com/GamaThon/path-proxy`
 - Download https://github.com/GamaThon/path-proxy/releases/download/v1.0/config.json to GamaThon folder.
 - `pproxy`
-- Check the terminal output mentions 8001 and 8002.
+
+## Check the proxy
+See if the proxy log says the following
+```
+INFO[0000] Mapping /websocket to http://localhost:8001
+INFO[0000] Mapping / to http://localhost:8002
+INFO[0000] Mapping /td to http://localhost:8002
+```
