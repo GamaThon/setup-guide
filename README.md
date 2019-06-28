@@ -26,14 +26,14 @@ This will run the server. You need to run both at the same time.
 
 ## Setup proxy (Windows)
 - Open https://github.com/GamaThon/path-proxy/releases/tag/v1.0 in your browser.
-- Download pproxy.exe to your `Gamathon` folder.
-- Download the config to your `Gamathon` folder.
+- Download https://github.com/GamaThon/path-proxy/releases/download/v1.0/pproxy.exe to your `Gamathon` folder.
+- Download the https://github.com/GamaThon/path-proxy/releases/download/v1.0/config.json to your `Gamathon` folder.
 - In CMD run `pproxy`
 - Check the terminal output mentions 8001 and 8002.
 
 ## Setup proxy (*nix)
 - `cd` to Gamathon folder
 - `go get github.com/GamaThon/path-proxy`
-- `curl https://github.com/just1689/path-proxy/releases/download/v1.0/config.json --output config.json`
+- Download https://github.com/GamaThon/path-proxy/releases/download/v1.0/config.json to GamaThon folder.
 - `pproxy`
 - Check the terminal output mentions 8001 and 8002.
